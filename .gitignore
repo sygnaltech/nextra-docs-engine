@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.DS_Store
+
+# We commit dist/ so that git-URL installs work without a build step on the consumer side.
+# If you change the build output, run `npm run build` and commit the result.

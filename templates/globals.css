@@ -1,0 +1,9 @@
+/* Consumer's `src/app/globals.css`.
+   Imports the engine's stylesheet, then layers any project-specific overrides. */
+
+@import '@sygnal/nextra-docs-engine/styles.css';
+
+/* Project-specific overrides below */
+:root {
+  --nextra-content-width: 1400px;
+}
