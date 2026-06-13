@@ -19,7 +19,7 @@ projects. One source of truth — fixes flow to all consumers via version bump.
 ## Install
 
 ```bash
-npm install github:sygnal/nextra-docs-engine#v0.1.0
+npm install @sygnal/nextra-docs-engine
 ```
 
 Or for local development:
@@ -165,7 +165,7 @@ Or wire it into a `prebuild` script.
 ## Updating
 
 ```bash
-npm install github:sygnal/nextra-docs-engine#v0.2.0
+npm install @sygnal/nextra-docs-engine@latest
 ```
 
 The skill, components, and styles update together. Check the engine's
@@ -180,16 +180,21 @@ fixes and internal refactors are patch.
 ## Development
 
 ```bash
-git clone github:sygnal/nextra-docs-engine
+git clone https://github.com/sygnaltech/nextra-docs-engine
 cd nextra-docs-engine
 npm install
 npm run build
 ```
 
-To test changes against a consumer locally, in the consumer:
+To test changes against a consumer locally, run `npm run build` in the engine
+first, then in the consumer:
 
 ```bash
 npm install file:../nextra-docs-engine
 ```
 
-The `prepare` script ensures `npm install` runs the build automatically.
+The engine ships its committed `dist/` — consumers don't build.
+
+## License
+
+MIT — see [LICENSE](./LICENSE).

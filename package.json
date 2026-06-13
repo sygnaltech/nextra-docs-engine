@@ -3,11 +3,35 @@
   "version": "0.1.0",
   "description": "Shared Nextra 4 + Next.js 15 docs engine — components, styles, breadcrumb, mdx-components factory, authoring skill.",
   "type": "module",
+  "license": "MIT",
+  "author": "Sygnal",
+  "homepage": "https://github.com/sygnaltech/nextra-docs-engine#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sygnaltech/nextra-docs-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sygnaltech/nextra-docs-engine/issues"
+  },
+  "keywords": [
+    "nextra",
+    "nextra-theme-docs",
+    "nextjs",
+    "docs",
+    "documentation",
+    "mdx",
+    "react",
+    "sygnal"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "skill",
     "templates",
     "scripts/sync-skill.mjs",
+    "LICENSE",
     "README.md"
   ],
   "exports": {
@@ -45,6 +69,5 @@
   },
   "engines": {
     "node": ">=18"
-  },
-  "license": "MIT"
+  }
 }
