@@ -1,0 +1,8 @@
+---
+id: 6BBGAHkjfDwqTrEaXG9B8g
+version: 1
+---
+
+<p></p><h1>Tag the release</h1><pre><code class="language-powershell">git tag v0.1.0
+git push --tags</code></pre><h1>Publish to npm</h1><pre><code class="language-powershell">npm login
+npm publish</code></pre><p></p><p></p><p></p><p></p><p><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/@sygnal/nextra-docs-engine">https://www.npmjs.com/package/@sygnal/nextra-docs-engine</a> </p><p></p>
